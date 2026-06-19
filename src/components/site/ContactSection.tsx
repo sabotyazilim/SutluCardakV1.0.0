@@ -2,7 +2,7 @@ import { MapPin, Phone } from "lucide-react";
 
 const address = "Yusufpaşa, 36000 Kars Merkez/Kars";
 const phone = "0474 223 53 32";
-const mapQuery = encodeURIComponent(address);
+const mapQuery = encodeURIComponent("Sütlü Çardak Kars, Yusufpaşa Mahallesi Atatürk Caddesi No:22, Kars Merkez/Kars");
 
 export function ContactSection() {
   return (
