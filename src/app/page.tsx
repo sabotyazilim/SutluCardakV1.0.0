@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Coffee, Croissant, Milk, Star } from "lucide-react";
+import { ContactSection } from "@/components/site/ContactSection";
 import { Hero } from "@/components/site/Hero";
 import { defaultMenuState } from "@/lib/menu-data";
 
@@ -57,6 +58,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ContactSection />
     </>
   );
 }
