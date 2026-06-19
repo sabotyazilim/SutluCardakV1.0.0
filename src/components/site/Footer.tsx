@@ -18,18 +18,27 @@ export function Footer() {
           </p>
         </div>
         <div>
-          <p className="font-semibold">Ziyaret</p>
+          <p className="font-semibold">İletişim</p>
           <p className="mt-3 text-sm leading-6 text-[#dcebe1]">
-            Çardak Sokak No: 12<br />
-            Moda, Kadıköy / İstanbul
+            Yusufpaşa, 36000
+            <br />
+            Kars Merkez/Kars
+            <br />
+            0474 223 53 32
           </p>
         </div>
         <div>
           <p className="font-semibold">Bağlantılar</p>
           <div className="mt-3 flex flex-col gap-2 text-sm text-[#dcebe1]">
-            <Link href="/menu" className="hover:text-white">Menü</Link>
-            <Link href="/about" className="hover:text-white">Hakkımızda</Link>
-            <Link href="/contact" className="hover:text-white">İletişim</Link>
+            <Link href="/menu" className="hover:text-white">
+              Menü
+            </Link>
+            <Link href="/about" className="hover:text-white">
+              Hakkımızda
+            </Link>
+            <Link href="/contact" className="hover:text-white">
+              İletişim
+            </Link>
           </div>
         </div>
       </div>

@@ -9,8 +9,7 @@ export function Hero() {
     <section
       className="relative min-h-[calc(100vh-73px)] overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage:
-          "linear-gradient(90deg, rgba(17, 42, 33, 0.82), rgba(17, 42, 33, 0.38)), url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1800&q=85')",
+        backgroundImage: "linear-gradient(90deg, rgba(17, 42, 33, 0.82), rgba(17, 42, 33, 0.34)), url('/hero.jpg')",
       }}
     >
       <div className="mx-auto flex min-h-[calc(100vh-73px)] max-w-6xl items-center px-4 py-20 sm:px-6 lg:px-8">
@@ -25,9 +24,7 @@ export function Hero() {
             Günlük sütlü tatlılar ve nitelikli kahveler
           </div>
           <h1 className="text-5xl font-black leading-tight sm:text-6xl lg:text-7xl">Sütlü Çardak</h1>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-[#eef8f0] sm:text-xl">
-            Şehrin içinde sakin bir çardak molası. Fırın sütlaçtan imza latteye, her tabakta hafiflik ve her fincanda özen var.
-          </p>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-[#eef8f0] sm:text-xl">Şehrin içinde sakin bir mola.</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href="/menu"

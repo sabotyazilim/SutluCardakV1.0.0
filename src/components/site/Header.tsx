@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Coffee, Menu as MenuIcon } from "lucide-react";
+import { Menu as MenuIcon } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Ana Sayfa" },
@@ -31,13 +31,6 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <Link
-            href="/admin"
-            className="ml-2 inline-flex items-center gap-2 rounded-full bg-[#20382f] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#315c4c]"
-          >
-            <Coffee size={16} />
-            Admin
-          </Link>
         </nav>
 
         <details className="relative md:hidden">
@@ -51,9 +44,6 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/admin" className="mt-1 block rounded-md bg-[#20382f] px-3 py-2 text-sm font-semibold text-white">
-              Admin
-            </Link>
           </div>
         </details>
       </div>
